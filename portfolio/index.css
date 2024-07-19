@@ -71,11 +71,6 @@ body {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
     url('./images/Header.jpg');
 }
-
-/* --------------------------------------- */
-/* ----- ScrollBar ----- */
-/* --------------------------------------- */
-
 ::-webkit-scrollbar{
     width:13px;
 }
@@ -129,11 +124,6 @@ img {
     object-fit: contain;
     max-width: 100%;
 }
-
-/* --------------------------------------- */
-/* ----- Headlines and Paragraphs ----- */
-/* --------------------------------------- */
-
 h1,
 h2,
 h3 {
@@ -197,11 +187,6 @@ p {
         max-width: var(--container-small-width);
     }
 }
-
-/* --------------------------------------- */
-/* ----- Buttons and Links ----- */
-/* --------------------------------------- */
-
 a {
     color: var(--white);
     font-weight: 400;
@@ -345,11 +330,6 @@ body:not(.user-is-tabbing) a:focus {
         right: 1rem;
     }
 }
-
-/* --------------------------------------- */
-/* ----- Navigation ----- */
-/* --------------------------------------- */
-
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -413,11 +393,6 @@ body:not(.user-is-tabbing) a:focus {
     height: 2px;
     background: var(--pink);
 }
-
-/* --------------------------------------- */
-/* ----- Header ----- */
-/* --------------------------------------- */
-
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
         url('./images/Header.jpg');
@@ -450,11 +425,6 @@ body:not(.user-is-tabbing) a:focus {
         transform: scale(.8);
     }
 }
-
-/* --------------------------------------- */
-/* ----- Resume Work ----- */
-/* --------------------------------------- */
-
 .work__box {
     display: flex;
     align-items: center;
@@ -519,10 +489,6 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
-/* --------------------------------------- */
-/* ----- About ----- */
-/* --------------------------------------- */
-
 .about__content {
     display: flex;
     flex-direction: row-reverse;
@@ -550,19 +516,9 @@ body:not(.user-is-tabbing) a:focus {
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
-
-/* --------------------------------------- */
-/* ----- Contact ----- */
-/* --------------------------------------- */
-
 .contact__info {
     max-width: var(--container-medium-width);
 }
-
-/* --------------------------------------- */
-/* ----- Footer ----- */
-/* --------------------------------------- */
-
 .footer {
     text-align: center;
     padding: var(--gutter-medium) 0 var(--gutter-normal);
